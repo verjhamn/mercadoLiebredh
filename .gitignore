@@ -1,0 +1,8 @@
+# Dependency directories
+node_modules
+
+# VSCode
+.vscode/
+
+#GitHub Work Flou
+.github
