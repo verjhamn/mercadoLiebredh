@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ebebeb;
+}
+
+.formulario {
+    margin: auto;
+}
+
+.formulario form {
+    padding: 10px;
+}
+
+.formulario form h4{
+    text-align: center;
+}
+
+.formulario form .btns{
+    width: 100%;
+    margin: auto;
+    padding: 2px;
+    display: flex;
+}
+
+.formulario form .btns button{
+    width: 48%;
+    margin: auto;
+    padding: 2px;
+}
+
+
+
+@media (min-width: 1199px){
+    .formulario {
+        width: 30%;
+        margin: auto;
+    }
+}
+
+/*
+    Tablets en horizonal y escritorios normales
+*/
+@media (min-width: 768px) and (max-width: 1199px) {
+    .formulario {
+        width: 60%;
+        margin: auto;
+    }
+}
+
+/*
+    Móviles en horizontal o tablets en vertical
+*/
+
+@media (max-width: 767px) {
+}
+
+/*
+    Móviles en vertical
+*/
+
+@media (max-width: 480px) {
+
+}
