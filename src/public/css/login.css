@@ -17,8 +17,21 @@ body {
     padding: 10px;
 }
 
-.formulario form button{
+.formulario form h4{
+    text-align: center;
+}
+
+.formulario form .btns{
     width: 100%;
+    margin: auto;
+    padding: 2px;
+    display: flex;
+}
+
+.formulario form .btns button{
+    width: 48%;
+    margin: auto;
+    padding: 2px;
 }
 
 
