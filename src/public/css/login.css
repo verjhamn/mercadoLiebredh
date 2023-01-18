@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ebebeb;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/*
+    --------- Header ---------
+*/
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #EAC926;
+    padding: 5px;
+}
+
+header img {
+    height: 50px;
+}
+
+header .top-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .top-header .logo {
+    width: 30%;
+}
+
+header .top-header .form {
+    width: 60%;
+    display: flex;
+}
+
+header .top-header .form input {
+    width: 80%;
+    margin: auto;
+}
+
+header .top-header .form div {
+    width: 20%;
+}
+
+header .top-header .ico {
+    width: 30%;
+    display: flex;
+}
+
+header .nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .nav ul li {
+    padding: 2px;
+    list-style: none;
+}
+
+section.banner img {
+    width: 100%;
+}
+
+
+/*
+    --------- Main ---------
+*/
+
+main{
+    padding: 10px;
+}
+
+.formulario {
+    margin: auto;
+}
+
+.formulario form {
+    padding: 10px;
+}
+
+.formulario form h4 {
+    text-align: center;
+}
+
+.formulario form .btns {
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+.formulario form .btns button {
+    width: 100%;
+    margin: auto;
+    padding: 2px;
+}
+
+@media (min-width: 1199px) {
+    .formulario {
+        width: 30%;
+        margin: auto;
+    }
+}
+
+/*
+    Tablets en horizonal y escritorios normales
+*/
+@media (min-width: 768px) and (max-width: 1199px) {
+    .formulario {
+        width: 60%;
+        margin: auto;
+    }
+}
+
+/*
+    Móviles en horizontal o tablets en vertical
+*/
+
+@media (max-width: 767px) {}
+
+/*
+    Móviles en vertical
+*/
+
+@media (max-width: 480px) {}
