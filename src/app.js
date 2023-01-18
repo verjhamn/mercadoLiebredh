@@ -19,6 +19,10 @@ app.get('/register', (_,res)=>{
     res.sendFile(path.resolve('src/views/register.html'))
 })
 
+app.get('/login', (_,res)=>{
+    res.sendFile(path.resolve('src/views/login.html'))
+})
+
 app.listen(PORT, ()=>{
     console.log('Servidor corriendo en el puerto ', PORT)
 })
