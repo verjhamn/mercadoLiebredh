@@ -68,6 +68,10 @@ header .nav ul {
     justify-content: space-between;
 }
 
+#navMovil{
+    display: none;
+}
+
 header .nav ul li {
     padding: 2px;
     list-style: none;
@@ -82,7 +86,7 @@ section.banner img {
     --------- Main ---------
 */
 
-main{
+main {
     padding: 10px;
 }
 
@@ -115,6 +119,8 @@ main{
         width: 30%;
         margin: auto;
     }
+
+    
 }
 
 /*
@@ -137,4 +143,9 @@ main{
     Móviles en vertical
 */
 
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+    header .nav ul {
+        display: block;
+        justify-content: space-between;
+    }
+}

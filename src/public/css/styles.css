@@ -11,6 +11,7 @@ body {
 
 section.banner img {
   width: 100%;
+
 }
 
 form {
@@ -75,6 +76,10 @@ header .nav ul {
   display: flex;
   justify-content: space-between;
 }
+
+/* header .nav ul .navMovil{
+  display: none;
+} */
 
 header .nav ul li {
   padding: 2px;
